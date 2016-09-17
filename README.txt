@@ -5,4 +5,4 @@ Stable tag: 1.0
 Tested up to: 4.6
 
 == Description ==
-This plugin fixes the capitalization of WooCommerce, Jetpack and VaultPress in the same way as capital_wp_dangit
+This plugin fixes the capitalization of WooCommerce, Jetpack and VaultPress in the same way as capital_P_dangit
