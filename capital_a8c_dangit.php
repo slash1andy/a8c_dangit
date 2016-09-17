@@ -28,4 +28,4 @@ function capital_a8c_dangit( $text ) {
 	                $dblq = _x( '&#8220;', 'opening curly double quote' );
 	        }
 	        return str_replace ( $bad, $good, $text );
-*/
+	       }
