@@ -7,14 +7,14 @@
 Plugin Name: a8c capitalization
 Plugin URI: 
 Description: Capitalizes the Automattic products that tend to get miscapitalized.
-Author: Team capital_WC_dangit
+Author: Team capital_a8c_dangit
 Version: 1.0
-Author URI: http://automattic/
+Author URI: 
 */
+// Basically modified from capital_P_dangit
 add_filter( 'the_title', 'capital_a8c_dangit', 11 );
 add_filter( 'the_content', 'capital_a8c_dangit', 11 );
 add_filter( 'comment_text', 'capital_a8c_dangit', 31 );
-
 function capital_a8c_dangit( $text ) {
 // Simple replacement for titles
 			$bad = array('Vaultpress', 'JetPack', 'Woocommerce','jetPack',);
