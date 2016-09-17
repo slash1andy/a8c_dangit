@@ -17,8 +17,8 @@ add_filter( 'the_content', 'capital_a8c_dangit', 11 );
 add_filter( 'comment_text', 'capital_a8c_dangit', 31 );
 function capital_a8c_dangit( $text ) {
 // Simple replacement for titles
-			$bad = array('Vaultpress', 'JetPack', 'Woocommerce','jetPack',);
-			$good = array('VaultPress', 'Jetpack', 'WooCommerce', 'Jetpack',);
+			$bad = array('Vaultpress', 'JetPack', 'Woocommerce','jetPack', 'CloudUp', 'SimpleNote',);
+			$good = array('VaultPress', 'Jetpack', 'WooCommerce', 'Jetpack', 'Cloudup', 'Simplenote',);
 	        $current_filter = current_filter();
 	        if ( 'the_title' === $current_filter || 'wp_title' === $current_filter )
 	                return str_replace( $bad, $good, $text );
